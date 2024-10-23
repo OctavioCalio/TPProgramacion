@@ -31,11 +31,15 @@ const TaskList = () => {
     };
 
     if (loading) {
-        return <div className="d-flex justify-content-center" style={{ marginTop: '100px' }}>
-            <div className="spinner-border" role="status"></div>
-            <p>Las listas pueden demorar más de un minuto en cargarse...</p>
-            
-            </div>;
+        return (
+            <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '50vh' }}>
+                <div className="text-center">
+                    <div className="spinner-border mb-3" role="status"></div>
+                    <br></br>
+                    <p>Las listas pueden demorar más de un minuto en cargarse...</p>
+                </div>
+            </div>
+        );
     }
 
     return (
