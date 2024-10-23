@@ -66,7 +66,13 @@ const App = () => {
                             <br></br>
                             <p>Para agregar, modificar o eliminar usuarios y tareas utilice los 
                                 accesos en la barra de navegación
+                                
                             </p>
+                            <br>
+                            </br>
+                            <p>Front subido en: <a href='https://tp-programacion-tawny.vercel.app' ></a></p>
+                            <br></br>
+                            <p>Back subido en: <a href='https://tpprogramacion.onrender.com' ></a></p>                    
                         </div>
                     } />
                 </Routes>
