@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'tp-programacion-5otwh2k1r-octaviocalios-projects.vercel.app'; // Cambia el puerto si es necesario
+const API_URL = 'tp-programacion-tawny.vercel.app'; // Cambia el puerto si es necesario
 
 export const getUsers = async (params = {}) => {
     return await axios.get(API_URL, { headers: { params: JSON.stringify(params) } });
