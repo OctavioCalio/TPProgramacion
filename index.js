@@ -28,7 +28,10 @@ const port = process.env.PORT
 
 
 // Enable CORS
-app.use(cors());
+app.use(cors({
+    origin: 'https://tp-programacion-tawny.vercel.app',
+    credentials: true
+}));
 
 
 // Enable the use of request body parsing middleware
