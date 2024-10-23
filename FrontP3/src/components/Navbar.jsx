@@ -43,7 +43,7 @@ const Navbar = () => {
                                 <button
                                     className="btn btn-danger"
                                     style={{ margin: "1em" }}
-                                    onClick={() => logout({ returnTo: https://tp-programacion-tawny.vercel.app })}
+                                    onClick={() => logout({ returnTo: 'https://tp-programacion-tawny.vercel.app'})}
                                 >
                                     Salir
                                 </button>
@@ -81,7 +81,7 @@ const Navbar = () => {
                                 <button
                                     className="btn btn-danger"
                                     style={{ margin: "1em" }}
-                                    onClick={() => logout({ returnTo: https://tp-programacion-tawny.vercel.app })}
+                                    onClick={() => logout({ returnTo: 'https://tp-programacion-tawny.vercel.app' })}
                                 >
                                     Salir
                                 </button>
